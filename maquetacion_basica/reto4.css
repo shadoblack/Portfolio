@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+    
+}
+
+.main{
+    background-image: url('https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+
+.header{
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 150px;
+    background-color: rgba(0, 0, 0, 0.959);
+    color: red;
+}
+
+
+
+.menu{
+    display: flex;
+    gap: 50px;
+    background-image: url('https://c.wallhere.com/photos/43/8f/Destiny_video_game_vector_art_Iron_Banner-1353355.jpg!d');
+    background-size: 350px 40px;
+    background-repeat: no-repeat;
+}
+
+.menu_enlaces{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+
+}
+
+.menu_enlaces:hover{
+    border-bottom: 5px transparent ;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0px 80px;
+    padding: 40px;
+    gap: 40px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.623);
+    border-radius: 5px;
+    background-image: url("https://c.wallhere.com/photos/8b/71/1920x1200_px_action_artwork_Destiny_fi_Fighting_Fps_Futuristic-1819311.jpg!d");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:fit-content;
+}
+
+.card{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.623);
+    background: transparent;
+}
+
+.imagen{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    max-width: 300px;
+    max-height: fit-content;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: bottom 20px;
+}
+
+.imagen_photo{
+    width: auto;
+    height: 100%;
+    max-height: 200px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: justify;
+    gap: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+}
+
+.boton{
+    padding: 10px;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    color:red;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px black;
+    background-image: url("https://images.unsplash.com/photo-1523447704114-37cea08ee064?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
+}

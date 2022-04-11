@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap');
+*{
+    margin: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    font-family: 'Lobster', cursive;
+    
+    
+}
+
+.main
+{
+    background-image: url('https://www.wallpapertip.com/wmimgs/25-256317_beautiful-summer-wallpapers-pixel-popular-hd-wallpaper-tropical.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header
+{
+    display: flex;
+    
+    justify-content: space-between;
+    
+}
+
+
+
+.img_logo
+{
+    max-width: 25px;
+    
+    
+}
+
+.container
+{
+    display: flex;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card
+{
+    background-image: url("https://www.azutura.com/media/catalog/product/cache/50/image/650x/040ec09b1e35df139433887a97daa66f/W/S/WS-50354_WP.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    max-height: 500px;
+    max-width: 300px;
+    box-shadow: 10px 10px 10px 10px black;
+    
+    
+}
+
+.imagen_photo
+{
+    max-height: 100px;
+    width: 275px;
+    opacity: 1;
+    align-items:center;
+    justify-content: center;
+    border-radius: 10px;
+
+    
+}
+
+
+

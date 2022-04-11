@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Botafumeiro viajes</title>
+</head>
+<body>
+    <script src="agencia.js"></script>
+    <main class="main">
+        <header class="header">
+            <h1 class="h1">Botafumeiro viajes</h1>
+            <img class= "img_logo" src='https://cloud10.todocoleccion.online/calendarios-antiguos/tc/2020/06/23/22/209293165.webp'></img>
+        </header>
+        <section class="container">
+            <article class="card">
+            <figure class="imagen">
+                <img class="imagen_photo" src="https://www.caracteristicas.co/wp-content/uploads/2017/05/espa%C3%B1a-e1570587854254.jpg" alt="imagen_de_la_tarjeta">               
+            </figure>
+            <div class="texto">
+                <h2 class="texto_titulo">España</h2>
+                <p class="texto_info">España es un destino líder. Siempre ha estado entre los destinos más importantes en cuanto a llegada internacionales, y durante décadas ha sido una elección fija para las vacaciones de muchos europeos. Aquellos viajeros que suelen visitar España suelen ser exigentes y esperan una experiencia de gran calidad.</p>
+            </div>
+            </article>
+            <article class="card">
+                <figure class="imagen">
+                    <img class="imagen_photo" src="https://www.caracteristicas.co/wp-content/uploads/2018/09/Per%C3%BA-5-e1578616938773.jpg" alt="imagen_de_la_tarjeta">               
+                </figure>
+                <div class="texto">
+                    <h2 class="texto_titulo">Perú</h2>
+                    <p class="texto_info">Perú se ha convertido en los últimos años en el destino más de moda de Sudamérica. Motivos no le faltan: una variedad de ecosistemas impresionante, paisajes desbordantes, hermosas ciudades cargadas de historia, cultura, tradiciones, playas, fauna, flora... y, por supuesto, su deliciosa y afamada gastronomía.</p>
+                </div>
+                </article>
+                <article class="card">
+                    <figure class="imagen">
+                        <img class="imagen_photo" src="https://elcomercio.pe/resizer/zi1Nqfw9JBB9FmxkKXZDxop2Z9M=/980x0/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/KPWIXUI57ZEURPEIY7YRXFB2BY.jpg" alt="imagen_de_la_tarjeta">               
+                    </figure>
+                    <div class="texto">
+                        <h2 class="texto_titulo">galicia</h2>
+                        <p class="texto_info">Galicia es una de las comunidades más completas, bonitas y sorprendentes de España entera. Desde su infinita costa al interior, menos conocido pero absolutamente encantador, desde las ciudades llenas de historia a los pueblos con encanto, desde los paisajes que quitan el hipo a las mesas, donde nunca debe faltar el apetito.</p>
+                    </div>
+                    </article>
+                    <article class="card">
+                        <figure class="imagen">
+                            <img class="imagen_photo" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/6c/8d/bd/vistas-desde-el-alto.jpg?w=700&h=500&s=1" alt="imagen_de_la_tarjeta">               
+                        </figure>
+                        <div class="texto">
+                            <h2 class="texto_titulo">canarias</h2>
+                            <p class="texto_info">La ubicación de las islas cerca del Trópico de Cáncer su clima es subtropical. Esto varía con otras condiciones como son en algunas zonas por el relieve y por los vientos alisios.  
+
+                                Esto hace que las islas tengan temperaturas primaverales durante la mayor parte del año. Entre 19 y 25 grados centígrados.
+                                
+                                Esto las convierte en un destino perfecto para quienes se encuentran en la península o en países europeos y buscan buen clima durante el invierno boreal.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <figure class="imagen">
+                            <img class="imagen_photo" src="https://www.posadaterrasanta.com/wp-content/uploads/2020/06/Cala-Formentor-Mallorca-e1567526359889.jpg" alt="imagen_de_la_tarjeta">               
+                        </figure>
+                        <div class="texto">
+                            <h2 class="texto_titulo">Mallorca</h2>
+                            <p class="texto_info">La capital insular, la ciudad más grande de todo el archipiélago balear y también la localidad más monumental. Que no te de pereza dedicarle un día completo o, como mínimo, unas horas bien aprovechadas en Palma de Mallorca. No te vas a arrepentir.</p>
+                        </div>
+                        </article>
+                        <article class="card">
+                            <figure class="imagen">
+                                <img class="imagen_photo" src="https://ep01.epimg.net/verne/imagenes/2020/04/20/mexico/1587417407_065779_1587417611_noticia_normal.jpg" alt="imagen_de_la_tarjeta">               
+                            </figure>
+                            <div class="texto">
+                                <h2 class="texto_titulo">Cancún</h2>
+                                <p class="texto_info">Relajarte en una tumbona y darte un baño en alguna de mejores las playas de arena blanca y aguas cristalinas, es una de las mejores cosas que hacer en Cancún.
+                                    Esta ciudad tiene más de 20 kilómetros de playas públicas de todo tipo: turísticas, locales, de aguas calmadas o con olas, con actividades acuáticas, que te permitirá elegir según tus preferencias.</p>
+                            </div>
+                            </article>
+        </section>
+        <section class="formulario">
+            <input class="input_text" type="text" id="name" name="name" placeholder="nombre">
+            <input class="input_text" type="text" id="origin"  origin="origin" placeholder="origen">
+            <input class="input_text" type="text" id="destiny" destiny="destiny" placeholder="destino">
+            <input class="input_text" type="number" id="num_people" num_people="num_people" placeholder="numero de personas">
+            <input class="input_text" type="text" id="date" date="date" placeholder="fecha">
+            <button onclick="recogerDatos()" class="boton">solicitar info</button>
+            <button onclick="filtrar()" class="boton">filtrar</button>
+        </section>
+        <section id="lista"></section>
+        <footer class="footer"></footer>
+
+    </main>
+</body>
+</html>
